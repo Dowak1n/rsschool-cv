@@ -8,11 +8,17 @@ body {
   margin: 0;
 }
 
+main {
+  margin-bottom: 30px;
+}
+
 hr {
   border: none;
   background-color: #cfd6dd;
   border-radius: 5px;
   border-top: 3px solid rgba(0, 0, 0, .1);
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 footer {
@@ -100,26 +106,10 @@ h3 {
   color: #a4a3a2;
 }
 
-.head {
-  margin-top: -50px;
-  margin-left: 430px;
-  margin-right: 430px;
-  flex: 0 0 auto;
-  background-color: #3498DB;
-}
-
 p {
   font: 11pt/10pt sans-serif;
   word-spacing: 4px;
   line-height: 150%;
-}
-
-.pw {
-  font: 11pt/10pt sans-serif;
-  text-align: left;
-  word-spacing: 4px;
-  line-height: 150%;
-  color: white;
 }
 
 .round {
@@ -134,12 +124,6 @@ p {
   flex-wrap: wrap;
   margin-left: -15px;
   margin-right: -15px;
-}
-
-.row_1 {
-  display: flex;
-  margin-left: 15px;
-  margin-right: 15px;
 }
 
 .info {
@@ -166,19 +150,9 @@ p {
   flex: 0 0 50%;
 }
 
-.col-12 {
-  max-width: 100%;
-  flex: 0 0 100%;
-}
-
-.vl {
-  border-left: 5px solid #cfd6dd;
-  border-radius: 5px;
-  height: 500px;
-}
-
 li {
   color: #a68a83;
+  margin-left: -15px;
 }
 
 span {
@@ -211,7 +185,7 @@ a:focus:after {
   width: 100%;
 }
 
-.aww {
+.text-decoration {
   text-decoration: none;
   color: #ffffff;
   font: 11pt/10pt sans-serif;
@@ -220,7 +194,7 @@ a:focus:after {
   padding-top: 15px;
 }
 
-.aw {
+.link-highlight {
   text-decoration: none;
   color: #ffffff;
   font: 11pt/10pt sans-serif;
@@ -228,7 +202,7 @@ a:focus:after {
   line-height: 130%;
 }
 
-.aw:after {
+.link-highlight:after {
   display: block;
   position: absolute;
   left: 0;
@@ -239,27 +213,25 @@ a:focus:after {
   transition: width 0.3s ease-out;
 }
 
-.aw:hover:after,
-.aw:focus:after {
+.link-highlight:hover:after,
+.link-highlight:focus:after {
   width: 100%;
 }
 
-.fl {
-  flex: 0 0 25%;
+.flex-33 {
+  flex: 0 0 33%;
+  margin-left: 20px;
 }
 
-.fl15 {
+.flex-14 {
   flex: 0 0 14%;
   padding-top: 15px;
   margin-left: 70px;
+  text-align: center;
 }
 
-.fl10 {
-  flex: 0 0 30%;
+.flex-26 {
+  flex: 0 0 26%;
   padding-top: 20px;
-  margin-left: 120px;
-}
-
-.fl50 {
-  flex: 0 0 30%;
+  margin-left: 280px;
 }
